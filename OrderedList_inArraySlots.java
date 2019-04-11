@@ -18,7 +18,7 @@ public class OrderedList_inArraySlots
               \findMe is absent from this list.
      */
      
-    // While-style version of code
+    // // While-style version of code
     // public int indexOf( Integer findMe) {
         // int lower = 0, upper = size() - 1;
         // while( lower <= upper ) {
@@ -31,6 +31,7 @@ public class OrderedList_inArraySlots
         // return -1;
     // }
     
+    // Recursive version of code
     public int indexOf( Integer findMe) {
         return recurseIndexOf( 0, size() - 1, findMe);
     }
